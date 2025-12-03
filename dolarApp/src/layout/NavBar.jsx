@@ -2,9 +2,11 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-dark bg-dark mb-4">
+    <nav className="glass-nav navbar navbar-dark py-3 mb-4">
       <div className="container">
-        <span className="navbar-brand mb-0 h1">Dolar App</span>
+        <span className="navbar-brand mb-0 h1 fw-bold d-flex align-items-center gap-2">
+          <span className="fs-2">🇻🇪</span> Dolar App
+        </span>
       </div>
     </nav>
   )
